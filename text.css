@@ -1,0 +1,110 @@
+.heading{
+  font-weight:600;
+  font-size: 18px;
+  color:rgb(32, 32, 32);
+  margin-bottom: 0px;
+}
+
+
+.content{
+  margin-top:8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+.heading3{
+  font-weight:600;
+  font-size: 18px;
+  color:rgb(32, 32, 32);
+  margin-bottom: 0px;
+}
+
+.content3{
+  margin-top:8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.about{
+  color: rgb(200, 7, 11);
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.about1{
+  margin-top: 0px;
+  font-size: 26px;
+}
+
+.about-us{
+  width: 600px;
+}
+
+.about-us1{
+  margin-left: 66px;
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.about-us2{
+  width: 550px;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  color: rgb(32, 32, 32);
+}
+
+.xyz{
+  margin-left: 60px;
+}
+
+.title{
+  font-family: poppins, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+.info{
+  width: 160px;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+
+}
+
+
+.addr1{
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-bottom: 20px;
+  
+}
+
+.addr2{
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top:40px;
+  position: absolute;
+
+}
+
+.phone{
+  font-weight: bold;
+ align-items: bottom;
+}
+
+.number{
+  color: rgb(200, 7, 11);
+  font-size: 28px;
+}
+
+.label{
+  font-size: 18px;
+  color: rgb(20, 20, 20);
+}

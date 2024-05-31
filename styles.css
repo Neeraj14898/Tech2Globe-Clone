@@ -1,0 +1,308 @@
+body{
+  height: 2500px;
+  padding-top: 24px;
+    
+}
+ 
+.head1 {
+  background-color: rgb(213, 221, 228);
+        color: white;
+        position: fixed;
+        top: 24px;
+        left: 0px;
+        right: 0px;
+        height: 93px;
+}
+
+#header1{
+     height: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+      background-color: rgb(248, 249, 250);
+      position: fixed;
+      top: 24px;
+      left: 0;
+      right: 0;
+      transition: top 0.5s;
+      z-index: 9999;
+}
+
+.logo{
+ height: 50px;
+  flex: 1;
+  padding-top: 12px;
+  padding-right: 100px;
+  padding-left: 32px;
+}
+
+.hamburger-menu{
+  height: 31px;
+  padding-top: 25px;
+  padding-right: 84px;
+  display:flex;
+  flex: 1;
+}
+
+.banner{
+  height: 500px;
+  width: 100%;
+  border-radius: 0px 0px 450px 0px;
+  margin-bottom: 10px;
+ 
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: white;
+  width: 1020px;
+}
+
+.button1{
+  border: 1.5px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-family:poppins, sans-serif;
+  font-size: 14px;
+  transition: 600ms;
+  
+  
+}
+.button1:hover{
+  background-color: rgb(192, 31, 41);
+  border-color:rgb(192, 31, 41) ;
+  
+}
+
+
+.button2{
+  margin-left: 385px;
+  margin-top: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: poppins, sans ;
+  font-size: 11px;
+  border: none;
+  background-color:rgb(192, 31, 41) ;
+  color: white;
+  align-items: center;
+  transition:300ms;
+
+}
+
+.button2:hover{
+  opacity: 0.9;
+  cursor: pointer;
+  background-color: rgb(199, 88, 95);
+  
+}
+
+
+.grid1{
+ display: flex;
+  flex: 1;
+}
+
+.grid2{
+  display: flex;
+  flex: 1;
+}
+
+.grid3{
+ display: flex;
+  flex: 1;
+}
+
+.growth-img{
+ width: 70px;
+ margin-right: 18px;
+ margin-top: 21px;
+ margin-left: 20px;
+}
+
+.planning-img{
+  width: 70px;
+  margin-right: 18px;
+  margin-top: 21px;
+  margin-left: 20px;
+}
+
+.international-img{
+  width: 70px;
+  margin-right: 18px;
+  margin-top: 21px;
+  margin-left: 20px;
+}
+
+.growth-info{
+ width: 220px;
+ font-family: poppins, sans-serif;
+}
+
+.planning{
+  width: 220px;
+  font-family: poppins, sans-serif;
+ }
+
+ .international{
+  width: 220px;
+  font-family: poppins, sans-serif;
+ }
+
+.grid1:hover{
+  border-radius: 25px;
+  box-shadow: 5px 5px 25px .15px #888888;
+}
+
+.grid2:hover{
+  border-radius: 25px;
+  box-shadow: 5px 5px 25px .15px #888888;
+}
+
+.grid3:hover{
+  border-radius: 25px;
+  box-shadow: 5px 5px 25px .15px #888888;
+}
+
+
+.info-edge{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+
+.banner2{
+  height: 440px;
+  margin-top: 76px;
+  margin-right: 61px;
+  margin-left: 40px;
+}
+
+.banner3{
+  height: 375px;
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.abc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(images/culture.jpeg);
+}
+
+.grid_1{
+  flex: 1;
+}
+
+.grid_2{
+  flex: 1;
+}
+
+.grid_3{
+  flex: 1;
+}
+
+.grid_4{
+  flex: 1;
+}
+
+.grid_5{
+  flex: 1;
+}
+
+.expo{
+  background-color: rgb(192, 31, 41);
+  width: 45px;
+  padding: 20px;
+  border-radius: 90px;
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-bottom:-12px;
+}
+
+
+.grid_i{
+ 
+  flex: 1;
+}
+
+.grid_ii{
+  
+  flex: 1;
+}
+
+.grid_iii{
+ 
+  flex: 1;
+}
+
+.grid_iv{
+  flex: 1;
+}
+
+.grid_v{
+
+  flex: 1;
+}
+
+
+.usa-flag, .canada-flag, .bharat-flag{
+  width: 40px;
+  padding-left: 70px;
+}
+
+.usa-flag{
+  padding-bottom: 10px;
+}
+
+.footer{
+  display: flex ;
+  flex-direction: row;
+  background-color: rgb(20, 30, 70);
+  color: white;
+  justify-content: space-between;
+}
+
+.footer1{
+  display: flex;
+}
+
+
+.line{
+  margin-top: 75px;
+  border: 1.35px;
+  border-style: solid;
+  color: rgb(20, 30, 70);
+
+}
+
+.statistics{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.arrow{
+  width: 70px;
+  border-radius: 30px;
+  margin-bottom: -10px;
+  margin-top: 18px;
+}

@@ -1,0 +1,178 @@
+body {
+  font-family: poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  padding-bottom: 4px;
+ 
+}
+
+.header-row-1 {
+  height: 33px;
+  background-color: rgb(33, 37, 41);
+  justify-content: flex-start;
+
+}
+
+.header-row-1 a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.mini-bar{
+  width: 15px;
+  margin-left: 35px;
+ margin-top: 5px;
+  
+}
+
+.mini-bar2{
+  border-radius: 50px;
+  width: 16px;
+  margin-left: 15px;
+}
+
+.header-row-2 {
+  height: 62px;
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+
+.case-study{
+  margin-left: 600px;
+
+}
+
+.company-logo {
+  height: 40px;
+}
+
+.contact{
+  display: flex;
+}
+
+.contact1{
+  display: flex;
+  width: 32px;
+  margin-left: 20px;
+}
+
+.contact2{
+  display: flex;
+  column-gap: 10px;
+  font-family: poppins, sans-serif;
+  font-size: 12.5px;
+  
+}
+
+.header-row-3 {
+  height: 45px;
+  background-color: rgb(20, 30, 70);
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer Style  */
+
+footer {
+  background-color: rgb(20, 30, 70);
+  color: #fff;
+  padding: 20px 0;
+  font-family: poppins, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  width: 100%;
+}
