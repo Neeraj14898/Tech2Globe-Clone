@@ -1,0 +1,55 @@
+.box {
+  position: relative;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 30px;
+  width: 300px;
+  height: 360px;
+  background-color: transparent;
+  border-color: white;
+}
+
+.icon {
+  position: absolute;
+  top: -20px; /* Adjust this value to control the vertical position */
+  left: 20%;
+  transform: translateX(-50%);
+  background-color: #141e46; /* Background color to hide the border under the icon */
+  padding: 0 10px; /* Adjust padding to control the space around the icon */
+}
+
+.image-icon1{
+  width: 65px;
+ background-color: transparent ;
+ margin-top: -10px;
+}
+
+h4{
+  margin-top: 45px;
+  margin-bottom: 0px;
+  font-family: poppins, sans-serif;
+  font-size: 24px;
+  color: #C01F29
+}
+
+.topi{
+margin-top: 10px;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.topic{
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.b1{
+  padding: 6px 11px;
+  font-family: poppins, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: rgb(20, 30, 70);
+}
